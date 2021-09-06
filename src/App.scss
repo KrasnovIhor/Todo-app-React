@@ -1,0 +1,26 @@
+.App {
+  .aside-bar {
+    padding: 0;
+  }
+  aside {
+    background: #2b2f3e;
+    color: #fff;
+    height: 100%;
+    min-height: 100vh;
+    padding: 30px;
+    p {
+      color: #808080;
+      font-size: 18px;
+    }
+  }
+  .todos,
+  .comments {
+    &-wrapper {
+      margin: 0 auto;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      margin-top: 30px;
+    }
+  }
+}

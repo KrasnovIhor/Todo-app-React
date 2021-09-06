@@ -1,0 +1,24 @@
+.comments {
+  textarea {
+    resize: none;
+    min-height: 70px;
+  }
+}
+
+.item {
+  &:not(:last-child) {
+    border-bottom: 1px solid #f2f2f2;
+  }
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.preview {
+  width: 52px;
+  height: 52px;
+  background: #e6e6e6;
+  &Container {
+    padding: 0;
+    width: 10%;
+  }
+}

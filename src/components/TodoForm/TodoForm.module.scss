@@ -1,0 +1,18 @@
+.form {
+  margin-bottom: 50px;
+}
+
+.button {
+  padding: 0;
+  button {
+    background: #27ccc0;
+    border: 1px solid #27ccc0;
+    width: 100%;
+    &:hover,
+    &:active,
+    &:focus {
+      background: #067a6f;
+      border: 1px solid #067a6f;
+    }
+  }
+}

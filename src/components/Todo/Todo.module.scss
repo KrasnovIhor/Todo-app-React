@@ -1,0 +1,39 @@
+.itemTodo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  button {
+    width: max-content;
+  }
+
+  &__row {
+    margin: 0;
+    border-bottom: 1px solid #f2f2f2;
+    justify-content: space-between;
+  }
+  &_active {
+    position: relative;
+    &::before {
+      position: absolute;
+      left: -33px;
+      content: "";
+      width: 5px;
+      height: 100%;
+      background: #ff2f5a;
+    }
+  }
+  span {
+    display: inline-block;
+    text-align: center;
+    background: #27ccc0;
+    border-radius: 50%;
+    min-width: 30px;
+    color: #fff;
+    margin-left: 35px;
+  }
+}
+
+.button {
+  width: max-content;
+  margin: 10px 0;
+}
